@@ -1,0 +1,70 @@
+{
+  "applications": "*",
+  "changelogDate": "20221108074032",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "events_images",
+  "fields": [
+    {
+      "fieldName": "guid",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "imageLp",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "imageThumb",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "processingTime",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ruleRcvd",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ruleSent",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "when",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "gantryProcessed",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "gantrySent",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "threadRandNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "gantry",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "EventsImages (events_images) entity.\\n@author Ibrahim Mohamed.",
+  "jpaMetamodelFiltering": true,
+  "name": "EventsImages",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
