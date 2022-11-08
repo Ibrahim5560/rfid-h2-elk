@@ -1,0 +1,78 @@
+{
+  "applications": "*",
+  "changelogDate": "20221108233933",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "images",
+  "fields": [
+    {
+      "fieldName": "guid",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "plate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "anpr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rfid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataStatus",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "gantry",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lane",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "kph",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ambush",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "direction",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "vehicle",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "imageLp",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "issue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Images (images) entity.\\n@author Ibrahim Mohamed.",
+  "jpaMetamodelFiltering": true,
+  "name": "Images",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
