@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20221108233931",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "gantry",
+  "fields": [
+    {
+      "fieldName": "guid",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nameEn",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "nameAr",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Gantry (gantry) entity.\\n@author Ibrahim Mohamed.",
+  "jpaMetamodelFiltering": true,
+  "name": "Gantry",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
