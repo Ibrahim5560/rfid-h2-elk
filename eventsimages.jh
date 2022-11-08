@@ -1,0 +1,25 @@
+/**
+ * EventsImages (events_images) entity.\n@author Ibrahim Mohamed.
+ */
+entity EventsImages {
+  guid String required,
+  imageLp String ,
+  imageThumb String ,
+  processingTime Long,
+  ruleRcvd Long,
+  ruleSent Long,
+  when Long,
+  gantryProcessed Long,
+  gantrySent Long,
+  status String,
+  dataStatus String,
+  threadRandNo String,
+  gantry Integer
+}
+
+paginate all with pagination
+dto * with mapstruct
+service all with serviceImpl
+filter all
+
+         

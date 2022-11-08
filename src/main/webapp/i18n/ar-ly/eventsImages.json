@@ -1,0 +1,37 @@
+{
+  "rfidh2ElkApp": {
+    "eventsImages": {
+      "home": {
+        "title": "Events Images",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Events Images",
+        "createOrEditLabel": "Create or edit a Events Images",
+        "search": "Search for Events Images",
+        "notFound": "No Events Images found"
+      },
+      "created": "A new Events Images is created with identifier {{ param }}",
+      "updated": "A Events Images is updated with identifier {{ param }}",
+      "deleted": "A Events Images is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Events Images {{ id }}?"
+      },
+      "detail": {
+        "title": "Events Images"
+      },
+      "id": "ID",
+      "guid": "Guid",
+      "imageLp": "Image Lp",
+      "imageThumb": "Image Thumb",
+      "processingTime": "Processing Time",
+      "ruleRcvd": "Rule Rcvd",
+      "ruleSent": "Rule Sent",
+      "when": "When",
+      "gantryProcessed": "Gantry Processed",
+      "gantrySent": "Gantry Sent",
+      "status": "Status",
+      "dataStatus": "Data Status",
+      "threadRandNo": "Thread Rand No",
+      "gantry": "Gantry"
+    }
+  }
+}
