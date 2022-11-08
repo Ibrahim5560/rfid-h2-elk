@@ -1,0 +1,84 @@
+/**
+ * Events (events) entity.\n@author Ibrahim Mohamed.
+ */
+entity Events {
+  guid String required,
+  plate String ,
+  anpr String ,
+  rfid String ,
+  gantry Integer,
+  wantedFor String ,
+  licenseIssue String ,
+  issue String ,
+  tagIssue String ,
+  statusName String ,
+  lane Integer ,
+  direction Integer ,
+  kph Integer ,
+  ambush Integer ,
+  toll Double,
+  fine Double,
+  wantedBy Double,
+  licenseFine Double,
+  speedFine Double,
+  handled Long,
+  processingTime Long,
+  ruleRcvd Long,
+  ruleIssue Long,
+  ruleProcessed Long,
+  ruleSent Long,
+  when Long,
+  vehicle Long,
+  stolen Long,
+  wanted Boolean,
+  gantryProcessed Long,
+  gantrySent Long,
+  status String,
+  dataStatus String,
+  threadRandNo String,
+  handledBy String,
+}
+/**
+ * Tasks (tasks) entity.\n@author Ibrahim Mohamed.
+ */
+entity Tasks (tasks) {
+  nameEn String required,
+  nameAr String required,
+  status Integer,
+  code String
+}
+
+/**
+ * Gantry (gantry) entity.\n@author Ibrahim Mohamed.
+ */
+entity Gantry (gantry) {
+  guid String required,
+  nameEn String required,
+  nameAr String required,
+  status Integer,
+  code String
+}
+/**
+ * Vehicles (vehicles) entity.\n@author Ibrahim Mohamed.
+ */
+entity Vehicles {
+  guid String required,
+  plate String ,
+  anpr String ,
+  rfid String ,  
+  dataStatus String required,
+  gantry Long required,
+  lane Long required,
+  kph Long ,
+  ambush Long ,
+  direction Long ,
+  vehicle Long required,
+  status String
+}
+
+paginate all with pagination
+dto * with mapstruct
+service all with serviceImpl
+filter all
+
+         
