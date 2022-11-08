@@ -48,6 +48,8 @@ public class CacheConfiguration {
             createCache(cm, com.isoft.rfid.domain.User.class.getName());
             createCache(cm, com.isoft.rfid.domain.Authority.class.getName());
             createCache(cm, com.isoft.rfid.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.isoft.rfid.domain.Events.class.getName());
+            createCache(cm, com.isoft.rfid.domain.Tasks.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
