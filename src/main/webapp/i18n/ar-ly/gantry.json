@@ -1,0 +1,29 @@
+{
+  "rfidh2ElkApp": {
+    "gantry": {
+      "home": {
+        "title": "Gantries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Gantry",
+        "createOrEditLabel": "Create or edit a Gantry",
+        "search": "Search for Gantry",
+        "notFound": "No Gantries found"
+      },
+      "created": "A new Gantry is created with identifier {{ param }}",
+      "updated": "A Gantry is updated with identifier {{ param }}",
+      "deleted": "A Gantry is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Gantry {{ id }}?"
+      },
+      "detail": {
+        "title": "Gantry"
+      },
+      "id": "ID",
+      "guid": "Guid",
+      "nameEn": "Name En",
+      "nameAr": "Name Ar",
+      "status": "Status",
+      "code": "Code"
+    }
+  }
+}
