@@ -1,0 +1,154 @@
+{
+  "applications": "*",
+  "changelogDate": "20221115111509",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "events",
+  "fields": [
+    {
+      "fieldName": "guid",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "plate",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "anpr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "rfid",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataStatus",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "gantry",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "kph",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ambush",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "direction",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "vehicle",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "issue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "handledBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "gantryProcessed",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "gantrySent",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "when",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "toll",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ruleRcvd",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "wantedFor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fine",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "licenseIssue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "wantedBy",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ruleProcessed",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "speedFine",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "lane",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "tagIssue",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statusName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "licenseFine",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "stolen",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "wanted",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "ruleSent",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "handled",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ruleIssue",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Events (events) entity.\\n@author Ibrahim Mohamed.",
+  "jpaMetamodelFiltering": true,
+  "name": "Events",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
