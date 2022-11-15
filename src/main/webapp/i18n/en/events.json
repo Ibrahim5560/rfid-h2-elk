@@ -1,0 +1,57 @@
+{
+  "rfidh2ElkApp": {
+    "events": {
+      "home": {
+        "title": "Events",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Events",
+        "createOrEditLabel": "Create or edit a Events",
+        "search": "Search for Events",
+        "notFound": "No Events found"
+      },
+      "created": "A new Events is created with identifier {{ param }}",
+      "updated": "A Events is updated with identifier {{ param }}",
+      "deleted": "A Events is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Events {{ id }}?"
+      },
+      "detail": {
+        "title": "Events"
+      },
+      "id": "ID",
+      "guid": "Guid",
+      "plate": "Plate",
+      "anpr": "Anpr",
+      "rfid": "Rfid",
+      "dataStatus": "Data Status",
+      "gantry": "Gantry",
+      "kph": "Kph",
+      "ambush": "Ambush",
+      "direction": "Direction",
+      "vehicle": "Vehicle",
+      "issue": "Issue",
+      "status": "Status",
+      "handledBy": "Handled By",
+      "gantryProcessed": "Gantry Processed",
+      "gantrySent": "Gantry Sent",
+      "when": "When",
+      "toll": "Toll",
+      "ruleRcvd": "Rule Rcvd",
+      "wantedFor": "Wanted For",
+      "fine": "Fine",
+      "licenseIssue": "License Issue",
+      "wantedBy": "Wanted By",
+      "ruleProcessed": "Rule Processed",
+      "speedFine": "Speed Fine",
+      "lane": "Lane",
+      "tagIssue": "Tag Issue",
+      "statusName": "Status Name",
+      "licenseFine": "License Fine",
+      "stolen": "Stolen",
+      "wanted": "Wanted",
+      "ruleSent": "Rule Sent",
+      "handled": "Handled",
+      "ruleIssue": "Rule Issue"
+    }
+  }
+}
