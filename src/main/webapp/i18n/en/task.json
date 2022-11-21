@@ -1,0 +1,61 @@
+{
+  "rfidh2ElkApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task",
+        "createOrEditLabel": "Create or edit a Task",
+        "search": "Search for Task",
+        "notFound": "No Tasks found"
+      },
+      "created": "A new Task is created with identifier {{ param }}",
+      "updated": "A Task is updated with identifier {{ param }}",
+      "deleted": "A Task is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "ID",
+      "guid": "Guid",
+      "plate": "Plate",
+      "imageLp": "Image Lp",
+      "imageThumb": "Image Thumb",
+      "anpr": "Anpr",
+      "rfid": "Rfid",
+      "dataStatus": "Data Status",
+      "gantry": "Gantry",
+      "kph": "Kph",
+      "ambush": "Ambush",
+      "direction": "Direction",
+      "vehicle": "Vehicle",
+      "issue": "Issue",
+      "status": "Status",
+      "handledBy": "Handled By",
+      "gantryProcessed": "Gantry Processed",
+      "gantrySent": "Gantry Sent",
+      "when": "When",
+      "toll": "Toll",
+      "ruleRcvd": "Rule Rcvd",
+      "wantedFor": "Wanted For",
+      "fine": "Fine",
+      "licenseIssue": "License Issue",
+      "wantedBy": "Wanted By",
+      "ruleProcessed": "Rule Processed",
+      "speedFine": "Speed Fine",
+      "lane": "Lane",
+      "tagIssue": "Tag Issue",
+      "statusName": "Status Name",
+      "licenseFine": "License Fine",
+      "stolen": "Stolen",
+      "wanted": "Wanted",
+      "ruleSent": "Rule Sent",
+      "handled": "Handled",
+      "ruleIssue": "Rule Issue",
+      "processingTime": "Processing Time",
+      "threadRandNo": "Thread Rand No"
+    }
+  }
+}
